@@ -17,7 +17,6 @@ export default function CreatePage() {
       },
       body: JSON.stringify(productData),
     });
-
     navigate("/");
   }
 
